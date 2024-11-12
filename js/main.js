@@ -9,5 +9,5 @@ console.log(employee)
 const netSalary = SalaryService.netSalaty(employee)
 console.log(netSalary)
 
-console.log(`Funcionário = ${employee.name}\nSalário Bruto = ${employee.grossSalary}\nSalário Liquido = ${netSalary}`)
+console.log(`Funcionário = ${employee.name}\nSalário Bruto = ${employee.grossSalary.toFixed(2)}\nSalário Liquido = ${netSalary.toFixed(2)}`)
 
